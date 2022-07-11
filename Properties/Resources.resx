@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CARTA !5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA !5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coracon pe 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coracon pe 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA R" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA R.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA _" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA _.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="siguiente Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siguiente Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Ñ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Ñ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo HOME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo HOME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA flecha back Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA flecha back Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA P" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA P.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group Tutorial Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group Tutorial Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Y" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Y.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TIC (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TIC (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO FLECHA Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO FLECHA Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 1png2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 1png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo Info (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo Info (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group Traductor (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group Traductor (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="display" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\display.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA flecha back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA flecha back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA T.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Display (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Display (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA , " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA , .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA !2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA !2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA B (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA B (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA  pregunta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA  pregunta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cierra parentesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cierra parentesis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo ABC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo ABC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA _2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA _2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA J" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA J.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group Juegos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group Juegos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA !4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA !4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA J1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA J1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Braille_Type" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Braille Type.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CARTA R (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA R (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta f (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta f (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA flecha forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA flecha forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA S" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA S.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA V (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA V (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo cambio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo cambio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA J (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA J (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group Juegos PRESS (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group Juegos PRESS (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA , 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA , 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FONDO 1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FONDO 1 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA K (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA K (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Punto y coma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Punto y coma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIVEL 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIVEL 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TIC press2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TIC press2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA , 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA , 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA flecha forward Press1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA flecha forward Press1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA U (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA U (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra 0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra 0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA _3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA _3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diapo 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diapo 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coracon pe 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coracon pe 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA !" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA !.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA _ " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA _ .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="punto y coma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\punto y coma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA K" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA K.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA  dosPuntos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA  dosPuntos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diapo 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diapo 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo ABC (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo ABC (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA O (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA O (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Z (1)3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Z (1)3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DunbarTall_Medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DunbarTall-Medium.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="home button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA flecha forward Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA flecha forward Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="latin a braille" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\latin a braille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Y (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Y (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIVEL 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIVEL 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo ABC Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo ABC Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA A (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA A (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sist braille1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sist braille1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA S (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA S (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA . 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA C (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA C (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA , 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA , 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FONDO 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FONDO 11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA V (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA V (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diapo 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diapo 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nivel 1 Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nivel 1 Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Abrir paréntesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Abrir paréntesis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TIC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TIC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tutorial 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tutorial 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA G (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA G (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nivel 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nivel 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exclamacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exclamacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo Info Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo Info Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TIC press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TIC press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA  dosPuntos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA  dosPuntos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA _ 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA _ 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA L (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA L (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIVEL 2 Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIVEL 2 Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA N (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA N (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coracon pe 23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coracon pe 23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Informacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Informacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA X (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA X (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha forward (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha forward (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diapo 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diapo 4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group home press1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group home press1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Z (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Z (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO FLECHA (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO FLECHA (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="braille a latin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\braille a latin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA M" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA M.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sist latin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sist latin1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tutorial 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tutorial 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo ABC (3)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo ABC (3)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group Traductor Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group Traductor Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TEXT BOX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TEXT BOX.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA H (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA H (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coma-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coma-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo Braille Header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo Braille Header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA V" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA V.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha back larga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha back larga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo cambio Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo cambio Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sist latin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sist latin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\text box.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tutorial 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tutorial 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TODOS CARACTERES SPECIAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TODOS CARACTERES SPECIAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sist braille" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sist braille.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group Tutorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group Tutorial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abre parentesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abre parentesis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Q" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Q.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha forward (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha forward (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA . 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group home press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group home press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA !3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA !3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 1png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 1png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="diapo 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diapo 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="todos caracteres especiales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\todos caracteres especiales.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA O" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA O.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA . " type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA . .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA I (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA I (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA W.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextBox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flechitas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flechitas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA W (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA W (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vacio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vacio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta f (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta f (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA E" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA E.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA X (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA X (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exit Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exit Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ABC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ABC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coracon pe 22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coracon pe 22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA D (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA D (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA C.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="abc button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\abc button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TIC1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TIC1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Cerrar paréntesis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Cerrar paréntesis.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA F" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA F.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Display Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Display Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA U" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA U.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grup Latin Header1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grup Latin Header1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grup Latin Header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grup Latin Header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Group (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Group (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA N" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA N.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grupo ABC (3)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grupo ABC (3)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="POSTA flecha back Press1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\POSTA flecha back Press1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA !1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA !1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA M (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA M (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA P (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA P (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA X (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA X (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Z (1)2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Z (1)2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha back (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha back (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dos puntos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dos puntos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FONDO 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FONDO 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA _1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA _1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TextBox1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TextBox1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Ñ (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Ñ (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA L1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA L1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA  pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA  pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Q (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Q (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO TIC press1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO TIC press1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 1png1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 1png1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO FLECHA1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO FLECHA1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 91.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GRUPO FLECHA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GRUPO FLECHA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ABC COMPLETO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ABC COMPLETO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Y (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Y (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tutorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tutorial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NIVEL 3 Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NIVEL 3 Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA Z (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA Z (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="siguiente" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\siguiente.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA I.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA T (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA T (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA G1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA G1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CARTA H" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CARTA H.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flecha back larga Press" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flecha back larga Press.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="carta e (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\carta e (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

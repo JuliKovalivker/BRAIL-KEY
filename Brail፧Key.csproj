@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A680E08A-EDCE-4A12-AC86-7BD54DF79D4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>prueba1</RootNamespace>
+    <AssemblyName>prueba1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Braille Type.ttf" />
+    <None Include="Resources\DunbarTall-Medium.ttf" />
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abc button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sist braille.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sist braille1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sist latin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sist latin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flechitas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\display.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA B.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA C.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA E.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA G1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA H.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA I.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA J.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA J1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA K.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA M.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO FLECHA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TEXT BOX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coracon pe 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coracon pe 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coracon pe 22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra 0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barra 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo ABC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo HOME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coracon pe 23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Ñ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA O.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA P.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Q.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA S.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA T.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA V.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA W.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Y.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TIC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO FLECHA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Juegos %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Traductor %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo Info %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo ABC %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo Braille Header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextBox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grup Latin Header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo cambio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TextBox1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grup Latin Header1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo ABC %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo ABC %283%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO 1 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TIC %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO FLECHA %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABC COMPLETO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Tutorial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Display %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Juegos PRESS %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Traductor Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo Info Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group Tutorial Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo ABC Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grupo cambio Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Display Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group home press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 1png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA . .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA , .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA _.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA !.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA . 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA _1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA !1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA . 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA !2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA _2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA , 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA _ .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA !3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA _3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA !4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA _ 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA , 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA  pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA  dosPuntos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Group home press1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 1png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 1png2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA 91.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA . 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA , 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA  pregunta1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA !5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA  dosPuntos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\todos caracteres especiales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha back larga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha back larga Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIVEL 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIVEL 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\braille a latin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latin a braille.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel 1 Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIVEL 2 Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NIVEL 3 Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA A %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA B %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA C %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA D %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA G %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA H %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA I %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA J %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA K %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA L %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA M %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA N %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta f %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta f %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diapo 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diapo 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diapo 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diapo 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diapo 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha forward %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha back %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Abrir paréntesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Cerrar paréntesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARTA Punto y coma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flecha forward %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TODOS CARACTERES SPECIAL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vacio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTA flecha back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTA flecha forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TIC press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TIC press1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO TIC press2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRUPO FLECHA Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutorial 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dos puntos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abre parentesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cierra parentesis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\punto y coma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coma-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTA flecha forward Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTA flecha forward Press1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTA flecha back Press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POSTA flecha back Press1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta e %282%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

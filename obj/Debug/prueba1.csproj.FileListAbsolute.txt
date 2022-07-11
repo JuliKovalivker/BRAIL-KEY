@@ -1,0 +1,349 @@
+C:\Users\julik\source\repos\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\source\repos\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\source\repos\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\source\repos\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46958322\Downloads\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46958322\Downloads\prueba1\bin\Debug\prueba1.exe
+C:\Users\46958322\Downloads\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.exe
+C:\Users\46958322\Downloads\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba2\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\prueba2\prueba1\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba2\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba2\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\prueba1\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba 3\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\prueba 3\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba 3\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba 3\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba 3\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\prueba 3\prueba1\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba 3\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba 3\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba 3 (2)\prueba 3\prueba1\bin\Debug\prueba1.pdb
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\bin\Debug\prueba1.exe
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\bin\Debug\prueba1.pdb
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.exe
+C:\Users\Franco Raffaele\Desktop\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.pdb
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\bin\Debug\prueba1.exe
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\bin\Debug\prueba1.pdb
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.exe
+C:\Users\Franco Raffaele\Desktop\prueba 4.1\prueba 4\prueba 4\prueba 3\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Desktop\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Desktop\prueba1\bin\Debug\prueba1.exe
+C:\Users\46919484\Desktop\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.exe
+C:\Users\46919484\Desktop\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46958322\Desktop\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46958322\Desktop\prueba1\bin\Debug\prueba1.exe
+C:\Users\46958322\Desktop\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.exe
+C:\Users\46958322\Desktop\prueba1\obj\Debug\prueba1.pdb
+C:\Users\TEMP\Downloads\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\TEMP\Downloads\prueba1\bin\Debug\prueba1.exe
+C:\Users\TEMP\Downloads\prueba1\bin\Debug\prueba1.pdb
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.exe
+C:\Users\TEMP\Downloads\prueba1\obj\Debug\prueba1.pdb
+C:\Users\TEMP\Desktop\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\TEMP\Desktop\prueba1\bin\Debug\prueba1.exe
+C:\Users\TEMP\Desktop\prueba1\bin\Debug\prueba1.pdb
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.exe
+C:\Users\TEMP\Desktop\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (3)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form8.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\prueba1 (8)\prueba1 (7)\prueba1 (4)\prueba1 (4)\prueba1 (3)\prueba1\obj\Debug\prueba1.pdb

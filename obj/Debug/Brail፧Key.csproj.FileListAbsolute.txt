@@ -1,0 +1,266 @@
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\TEMP\Downloads\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csprojAssemblyReference.cache
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\46958322\Documents\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\Franco Raffaele\Desktop\desk\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2) (1)\Brail፧Key (1) (2)\Brail፧Key (1)\Brail፧Key\Brail፧Key\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\Downloads\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\Brail፧Key.csproj.AssemblyReference.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\julik\OneDrive\Desktop\Brail፧Key (8)\Brail፧Key\obj\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\Brail፧Key\bin\Debug\prueba1.exe.config
+C:\Users\46919484\Downloads\Brail፧Key\bin\Debug\prueba1.exe
+C:\Users\46919484\Downloads\Brail፧Key\bin\Debug\prueba1.pdb
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\Brail፧Key.csprojAssemblyReference.cache
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.g.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form1.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form10.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form11.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form12.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form2.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form3.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form4.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form5.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form6.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form7.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form8.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Form9.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.Properties.Resources.resources
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\Brail፧Key.csproj.GenerateResource.cache
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\Brail፧Key.csproj.CoreCompileInputs.cache
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.exe
+C:\Users\46919484\Downloads\Brail፧Key\obj\Debug\prueba1.pdb

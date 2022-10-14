@@ -26,7 +26,7 @@ namespace prueba1
         Dictionary<char, int> charToDecimal = new Dictionary<char, int>();
         char[] decimalToChar = new char[64];
 
-        string PUERTO_BOTONERA = "COM5";
+        string PUERTO_BOTONERA = "COM3";
 
         public Form9()
         {
@@ -103,7 +103,7 @@ namespace prueba1
             decimalToChar[61] = 'y';
             decimalToChar[62] = 'ú';
 
-            if (this.Visible == true)
+            if (this.Visible)
             {
                 try
                 {
@@ -120,7 +120,6 @@ namespace prueba1
                    // MessageBox.Show("agghb");
                 }
             }
-
 
             random = new Random();
             letraElegida = random.Next(1, letra.Length + 1);
@@ -327,6 +326,43 @@ namespace prueba1
         private void btnSiguiente_MouseLeave(object sender, EventArgs e)
         {
             btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
+        }
+
+
+        private void Form9_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            port_botonera.Close();
+        }
+
+        private void Form9_Leave(object sender, EventArgs e)
+        {
+            port_botonera.Close();
+        }
+
+        private void Form9_Shown(object sender, EventArgs e)
+        {
+            if (this.Visible)
+            {
+                try
+                {
+                    if (port_botonera.IsOpen == false)
+                    {
+                        port_botonera.PortName = PUERTO_BOTONERA;
+                        port_botonera.BaudRate = 9600;
+                        port_botonera.Open();
+                    }
+
+                }
+                catch
+                {
+                    // MessageBox.Show("agghb");
+                }
+            }
+        }
+
+        private void Form9_FormClosed_1(object sender, FormClosedEventArgs e)
+        {
+            port_botonera.Close();
         }
     }
 }

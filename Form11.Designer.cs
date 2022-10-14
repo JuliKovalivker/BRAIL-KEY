@@ -480,7 +480,10 @@ namespace prueba1
             this.Name = "Form11";
             this.Text = "Brail፧Key";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form11_FormClosed);
             this.Load += new System.EventHandler(this.Form11_Load);
+            this.Shown += new System.EventHandler(this.Form11_Shown);
+            this.Leave += new System.EventHandler(this.Form11_Leave);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();

@@ -88,7 +88,6 @@
             this.ap.Size = new System.Drawing.Size(404, 353);
             this.ap.TabIndex = 79;
             this.ap.TabStop = false;
-//            this.ap.Click += new System.EventHandler(this.ap_Click);
             // 
             // cp
             // 
@@ -418,7 +417,10 @@
             this.Name = "Form12";
             this.Text = "Brail፧Key";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form12_FormClosed);
             this.Load += new System.EventHandler(this.Form12_Load);
+            this.Shown += new System.EventHandler(this.Form12_Shown);
+            this.Leave += new System.EventHandler(this.Form12_Leave);
             ((System.ComponentModel.ISupportInitialize)(this.ap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pyc)).EndInit();

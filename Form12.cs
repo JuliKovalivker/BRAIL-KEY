@@ -303,5 +303,37 @@ namespace prueba1
         {
             btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
         }
+
+        private void Form12_Leave(object sender, EventArgs e)
+        {
+            port_botonera.Close();
+        }
+
+        private void Form12_Shown(object sender, EventArgs e)
+        {
+            if (this.Visible == true)
+            {
+                try
+                {
+                    if (port_botonera.IsOpen == false)
+                    {
+                        port_botonera.PortName = PUERTO_BOTONERA;
+                        port_botonera.BaudRate = 9600;
+                        port_botonera.Open();
+                    }
+
+                }
+                catch
+                {
+                    // MessageBox.Show("agghb");
+                }
+            }
+
+        }
+
+        private void Form12_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            port_botonera.Close();
+        }
     }
 }

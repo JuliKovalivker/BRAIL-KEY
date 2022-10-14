@@ -20,7 +20,7 @@ namespace prueba1
         char[] decimalToChar = new char[64];
 
         string PUERTO_DISPLAY = "COM5";
-        string PUERTO_BOTONERA = "COM8";
+        string PUERTO_BOTONERA = "COM3";
 
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,

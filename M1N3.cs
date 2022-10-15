@@ -93,11 +93,10 @@ namespace prueba1
               for (int i = 1; i <= hechos_.Length - 1; i++)
                   hechos_[i].Visible = false;
 
-            barra1.Visible = true;
-            barra2.Visible = true;
-            barra3.Visible = true;
+            vida1.Visible = true;
+            vida2.Visible = true;
+            vida3.Visible = true;
             txtLetra.Text = "";
-            letraElegida = random.Next(1, letra.Length);
             vidas = 3;
             hechos = 0;
             hechos_[0].Visible = true;
@@ -134,6 +133,11 @@ namespace prueba1
                         }
                     }
                 }
+
+                foreach (PictureBox ptbL in letras)
+                    ptbL.Visible = false;
+
+                letras[letraElegida - 1].Visible = true;
             }
             else
             {

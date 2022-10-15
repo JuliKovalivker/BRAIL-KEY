@@ -54,11 +54,12 @@ namespace prueba1
         string[] txtBox = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n" };
         int[] anteriores = new int[5];
         PictureBox[] hechos_ = new PictureBox[7];
+        int vidas = 3;
+        int hechos = 0;
+        Form f3 = new ABCyEsp();
 
-        private void Form9_Load(object sender, EventArgs e)
+        private void M2N1_Load(object sender, EventArgs e)
         {
-
-
             decimalToChar[0] = ' ';
             decimalToChar[1] = 'a';
             decimalToChar[2] = ',';
@@ -103,11 +104,11 @@ namespace prueba1
             decimalToChar[61] = 'y';
             decimalToChar[62] = 'ú';
 
-            if (this.Visible)
+            if(this.Visible)
             {
                 try
                 {
-                    if (port_botonera.IsOpen == false)
+                    if (!port_botonera.IsOpen)
                     {
                         port_botonera.PortName = PUERTO_BOTONERA;
                         port_botonera.BaudRate = 9600;
@@ -115,10 +116,7 @@ namespace prueba1
                     }
 
                 }
-                catch
-                {
-                   // MessageBox.Show("agghb");
-                }
+                catch{}
             }
 
             random = new Random();
@@ -146,29 +144,30 @@ namespace prueba1
             letras[12] = m;
             letras[13] = n;
 
-            hechos_[0] = pictureBox4;
-            hechos_[1] = pictureBox5;
-            hechos_[2] = pictureBox6;
-            hechos_[3] = pictureBox7;
-            hechos_[4] = pictureBox8;
-            hechos_[5] = pictureBox8;
-            hechos_[6] = pictureBox9;
+            hechos_[0] = barra0;
+            hechos_[1] = barra1;
+            hechos_[2] = barra2;
+            hechos_[3] = barra3;
+            hechos_[4] = barra4;
+            hechos_[5] = barra4;
+            hechos_[6] = barra5;
 
             foreach (PictureBox ptbL in letras)
-            {
                 ptbL.Visible = false;
-            }
 
             letras[letraElegida - 1].Visible = true;
 
             for (int i = 1; i <= hechos_.Length - 1; i++)
-            {
                 hechos_[i].Visible = false;
-            }
-        }
 
-        int vidas = 3;
-        int hechos = 0;
+            vida1.Visible = true;
+            vida2.Visible = true;
+            vida3.Visible = true;
+            txtLetra.Text = "";
+            vidas = 3;
+            hechos = 0;
+            hechos_[0].Visible = true;
+        }
 
         private void port_botonera_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
@@ -182,31 +181,25 @@ namespace prueba1
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (txtLetra.Text == txtBox[letraElegida - 1])
+            MessageBox.Show(txtBox[letraElegida - 1]);
+
+            if(txtLetra.Text == txtBox[letraElegida - 1])
             {
                 hechos++;
                 hechos_[hechos].Visible = true;
                 hechos_[hechos - 1].Visible = false;
                 anteriores[hechos - 1] = letraElegida;
 
-                if (hechos == 5)
+                if(hechos == 5)
                 {
-                    pictureBox9.Visible = true;
+                    barra5.Visible = true;
                     MessageBox.Show("Ganaste!");
                     this.Visible = false;
-                    pictureBox1.Visible = true;
-                    pictureBox2.Visible = true;
-                    pictureBox3.Visible = true;
-                    txtLetra.Text = "";
-                    letraElegida = random.Next(1, letra.Length);
-                    vidas = 3;
-                    hechos = 0;
-                    hechos_[0].Visible = true;
+                    
                 }
-
                 else
                 {
-                    MessageBox.Show("Correcto! Cierra para hacer el siguiente");
+                    MessageBox.Show("Correcto!");
                     letras[letraElegida - 1].Visible = false;
                     txtLetra.Text = "";
                     letraElegida = random.Next(1, letra.Length);
@@ -214,85 +207,47 @@ namespace prueba1
                     for (int x = 0; x < anteriores.Length - 1; x++)
                     {
                         if (anteriores[x] == letraElegida)
-                        {
                             letraElegida = random.Next(1, letra.Length);
-                        }
                     }
                 }
-            }
 
+                foreach (PictureBox ptbL in letras)
+                    ptbL.Visible = false;
+
+                letras[letraElegida - 1].Visible = true;
+            }
             else
             {
-                vidas = vidas - 1;
+                vidas--;
 
-                if (vidas == 0)
+                if(vidas == 0)
                 {
-                    pictureBox1.Visible = false;
-                    MessageBox.Show("Perdiste! Cierra para volver a comenzar");
-                    hechos = 0;
-                    vidas = 3;
-                    txtLetra.Text = "";
+                    vida1.Visible = false;
+                    MessageBox.Show("Perdiste!");
                     this.Visible = false;
-                    pictureBox1.Visible = true;
-                    pictureBox2.Visible = true;
-                    pictureBox3.Visible = true;
-                    hechos_[0].Visible = true;
                 }
-
                 else
                 {
-                    MessageBox.Show("Incorrecto! Cierra para volver a intentar");
+                    MessageBox.Show("Incorrecto!");
 
                     if (vidas == 2)
-                    {
-                        pictureBox3.Visible = false;
-                    }
+                        vida3.Visible = false;
 
                     if (vidas == 1)
-                    {
-                        pictureBox2.Visible = false;
-                    }
+                        vida2.Visible = false;
 
                     txtLetra.Text = "";
                 }
             }
 
         }
-
-        private void btnSiguiente_Click(object sender, EventArgs e)
-        {
-            foreach (PictureBox ptbL in letras)
-            {
-                ptbL.Visible = false;
-            }
-
-            letras[letraElegida - 1].Visible = true;
-        }
-
-        Form f3 = new ABCyEsp();
 
         private void btnABC_Click(object sender, EventArgs e)
         {
             f3.ShowDialog();
             this.Visible = false;
             if (f3.Visible == false)
-            {
                 this.Visible = true;
-            }
-        }
-
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            Form f1 = new Home();
-            f1.ShowDialog();
-            pictureBox1.Visible = true;
-            pictureBox2.Visible = true;
-            pictureBox3.Visible = true;
-            txtLetra.Text = "";
-            letraElegida = random.Next(1, letra.Length);
-            vidas = 3;
-            hechos = 0;
         }
 
         private void btnABC_MouseHover(object sender, EventArgs e)
@@ -317,35 +272,13 @@ namespace prueba1
             btnAceptar.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_TIC;
         }
 
-        private void btnSiguiente_MouseHover(object sender, EventArgs e)
-        {
-            btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA_Press;
-            btnSiguiente.FlatAppearance.MouseOverBackColor = Color.Transparent;
-        }
-
-        private void btnSiguiente_MouseLeave(object sender, EventArgs e)
-        {
-            btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
-        }
-
-
-        private void Form9_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            port_botonera.Close();
-        }
-
-        private void Form9_Leave(object sender, EventArgs e)
-        {
-            port_botonera.Close();
-        }
-
-        private void Form9_Shown(object sender, EventArgs e)
+        private void M2N1_Shown(object sender, EventArgs e)
         {
             if (this.Visible)
             {
                 try
                 {
-                    if (port_botonera.IsOpen == false)
+                    if (!port_botonera.IsOpen)
                     {
                         port_botonera.PortName = PUERTO_BOTONERA;
                         port_botonera.BaudRate = 9600;
@@ -353,27 +286,17 @@ namespace prueba1
                     }
 
                 }
-                catch
-                {
-                    // MessageBox.Show("agghb");
-                }
+                catch{ }
             }
         }
 
-        private void Form9_FormClosed_1(object sender, FormClosedEventArgs e)
+        private void M2N1_FormClosed_1(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
-            hechos = 0;
-            vidas = 3;
-            txtLetra.Text = "";
-            pictureBox1.Visible = true;
-            pictureBox2.Visible = true;
-            pictureBox3.Visible = true;
-            hechos_[0].Visible = true;
             this.Visible = false;
         }
 

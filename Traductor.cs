@@ -186,6 +186,8 @@ namespace prueba1
             this.Visible = false;
             port_botonera.Close();
             port_display.Close();
+            txt1.Text = "";
+            txt2.Text = "";
         }
 
         private void btnCambio_Click(object sender, EventArgs e)

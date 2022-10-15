@@ -45,7 +45,8 @@ namespace prueba1
             this.Hide();
             f5.ShowDialog();
             if (f5.Visible == false)
-                this.Visible = true;
+                try { this.Visible = true; }
+                catch { }
         }
 
         private void btnTraductor_Click(object sender, EventArgs e)

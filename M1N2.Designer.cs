@@ -256,7 +256,7 @@ namespace prueba1
             this.vida1.BackColor = System.Drawing.Color.Transparent;
             this.vida1.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_23;
             this.vida1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.vida1.Location = new System.Drawing.Point(75, 123);
+            this.vida1.Location = new System.Drawing.Point(67, 123);
             this.vida1.Margin = new System.Windows.Forms.Padding(4);
             this.vida1.Name = "vida1";
             this.vida1.Size = new System.Drawing.Size(85, 76);
@@ -269,7 +269,7 @@ namespace prueba1
             this.vida2.BackColor = System.Drawing.Color.Transparent;
             this.vida2.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_23;
             this.vida2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.vida2.Location = new System.Drawing.Point(155, 123);
+            this.vida2.Location = new System.Drawing.Point(147, 123);
             this.vida2.Margin = new System.Windows.Forms.Padding(4);
             this.vida2.Name = "vida2";
             this.vida2.Size = new System.Drawing.Size(85, 76);
@@ -282,7 +282,7 @@ namespace prueba1
             this.vida3.BackColor = System.Drawing.Color.Transparent;
             this.vida3.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_23;
             this.vida3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.vida3.Location = new System.Drawing.Point(237, 123);
+            this.vida3.Location = new System.Drawing.Point(229, 123);
             this.vida3.Margin = new System.Windows.Forms.Padding(4);
             this.vida3.Name = "vida3";
             this.vida3.Size = new System.Drawing.Size(85, 76);

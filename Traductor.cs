@@ -229,9 +229,10 @@ namespace prueba1
 
         private void port_display_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            /*serial = port_display.ReadLine();
+            MessageBox.Show(port_display.ReadLine());
+            serial = port_display.ReadLine();
             if (txt1.Focus())
-                txt1.Text += serial;*/
+                txt1.Text += serial;
         }
 
         private void btnABC_Click(object sender, EventArgs e)

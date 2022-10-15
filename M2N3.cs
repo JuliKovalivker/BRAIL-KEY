@@ -14,7 +14,7 @@ using System.Threading;
 
 namespace prueba1
 {
-    public partial class Form9 : Form
+    public partial class M2N3 : Form
     {
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,
@@ -28,7 +28,7 @@ namespace prueba1
 
         string PUERTO_BOTONERA = "COM3";
 
-        public Form9()
+        public M2N3()
         {
             InitializeComponent();
 
@@ -48,17 +48,15 @@ namespace prueba1
         }
 
         int letraElegida;
-        int[] letra = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };
+        int[] letra = { 1, 2, 3, 4, 5, 6, 7, 8};
         Random random;
-        PictureBox[] letras = new PictureBox[14];
-        string[] txtBox = { "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n" };
+        PictureBox[] letras = new PictureBox[8];
+        string[] txtBox = { ".", ",", "?", "!", ":", "(", ")", ";" };
         int[] anteriores = new int[5];
-        PictureBox[] hechos_ = new PictureBox[7];
+        PictureBox[] hechos_ = new PictureBox[6];
 
-        private void Form9_Load(object sender, EventArgs e)
+        private void Form12_Load(object sender, EventArgs e)
         {
-
-
             decimalToChar[0] = ' ';
             decimalToChar[1] = 'a';
             decimalToChar[2] = ',';
@@ -103,7 +101,7 @@ namespace prueba1
             decimalToChar[61] = 'y';
             decimalToChar[62] = 'ú';
 
-            if (this.Visible)
+            if (this.Visible == true)
             {
                 try
                 {
@@ -117,7 +115,7 @@ namespace prueba1
                 }
                 catch
                 {
-                   // MessageBox.Show("agghb");
+                    // MessageBox.Show("agghb");
                 }
             }
 
@@ -131,28 +129,21 @@ namespace prueba1
             this.Location = new Point(0, 0);
             this.Size = new Size(w, h_);
 
-            letras[0] = a;
-            letras[1] = b;
-            letras[2] = c;
-            letras[3] = d;
-            letras[4] = e_;
-            letras[5] = f;
-            letras[6] = g;
-            letras[7] = h;
-            letras[8] = i;
-            letras[9] = j;
-            letras[10] = k;
-            letras[11] = l;
-            letras[12] = m;
-            letras[13] = n;
+            letras[0] = punto;
+            letras[1] = coma;
+            letras[2] = pregunta;
+            letras[3] = exclamacion;
+            letras[4] = dosPuntos;
+            letras[5] = ap;
+            letras[6] = cp;
+            letras[7] = pyc;
 
-            hechos_[0] = pictureBox4;
-            hechos_[1] = pictureBox5;
-            hechos_[2] = pictureBox6;
-            hechos_[3] = pictureBox7;
-            hechos_[4] = pictureBox8;
-            hechos_[5] = pictureBox8;
-            hechos_[6] = pictureBox9;
+            hechos_[0] = pictureBox9;
+            hechos_[1] = pictureBox1;
+            hechos_[2] = pictureBox2;
+            hechos_[3] = pictureBox3;
+            hechos_[4] = pictureBox4;
+            hechos_[5] = pictureBox5;
 
             foreach (PictureBox ptbL in letras)
             {
@@ -233,9 +224,9 @@ namespace prueba1
                     vidas = 3;
                     txtLetra.Text = "";
                     this.Visible = false;
-                    pictureBox1.Visible = true;
-                    pictureBox2.Visible = true;
-                    pictureBox3.Visible = true;
+                    pictureBox8.Visible = true;
+                    pictureBox7.Visible = true;
+                    pictureBox6.Visible = true;
                     hechos_[0].Visible = true;
                 }
 
@@ -245,18 +236,17 @@ namespace prueba1
 
                     if (vidas == 2)
                     {
-                        pictureBox3.Visible = false;
+                        pictureBox8.Visible = false;
                     }
 
                     if (vidas == 1)
                     {
-                        pictureBox2.Visible = false;
+                        pictureBox7.Visible = false;
                     }
 
                     txtLetra.Text = "";
                 }
             }
-
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
@@ -269,7 +259,7 @@ namespace prueba1
             letras[letraElegida - 1].Visible = true;
         }
 
-        Form f3 = new Form3();
+        Form f3 = new ABCyEsp();
 
         private void btnABC_Click(object sender, EventArgs e)
         {
@@ -281,20 +271,6 @@ namespace prueba1
             }
         }
 
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            this.Visible = false;
-            Form f1 = new Form1();
-            f1.ShowDialog();
-            pictureBox1.Visible = true;
-            pictureBox2.Visible = true;
-            pictureBox3.Visible = true;
-            txtLetra.Text = "";
-            letraElegida = random.Next(1, letra.Length);
-            vidas = 3;
-            hechos = 0;
-        }
-
         private void btnABC_MouseHover(object sender, EventArgs e)
         {
             btnABC.BackgroundImage = global::prueba1.Properties.Resources.Grupo_ABC_Press;
@@ -303,7 +279,7 @@ namespace prueba1
 
         private void btnABC_MouseLeave(object sender, EventArgs e)
         {
-            btnABC.BackgroundImage = global::prueba1.Properties.Resources.Grupo_ABC;
+            btnABC.BackgroundImage = global::prueba1.Properties.Resources.Grupo_ABC; 
         }
 
         private void btnAceptar_MouseHover(object sender, EventArgs e)
@@ -328,20 +304,14 @@ namespace prueba1
             btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
         }
 
-
-        private void Form9_FormClosed(object sender, FormClosedEventArgs e)
+        private void Form12_Leave(object sender, EventArgs e)
         {
             port_botonera.Close();
         }
 
-        private void Form9_Leave(object sender, EventArgs e)
+        private void Form12_Shown(object sender, EventArgs e)
         {
-            port_botonera.Close();
-        }
-
-        private void Form9_Shown(object sender, EventArgs e)
-        {
-            if (this.Visible)
+            if (this.Visible == true)
             {
                 try
                 {
@@ -358,11 +328,35 @@ namespace prueba1
                     // MessageBox.Show("agghb");
                 }
             }
+
         }
 
-        private void Form9_FormClosed_1(object sender, FormClosedEventArgs e)
+        private void Form12_FormClosed(object sender, FormClosedEventArgs e)
         {
-            port_botonera.Close();
+            Application.Exit();
+        }
+
+        private void btnAtras_Click(object sender, EventArgs e)
+        {
+            hechos = 0;
+            vidas = 3;
+            txtLetra.Text = "";
+            pictureBox8.Visible = true;
+            pictureBox7.Visible = true;
+            pictureBox6.Visible = true;
+            hechos_[0].Visible = true;
+            this.Visible = false;
+        }
+
+        private void btnAtras_MouseHover(object sender, EventArgs e)
+        {
+            btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit_Press;
+            btnAtras.FlatAppearance.MouseOverBackColor = Color.Transparent;
+        }
+
+        private void btnAtras_MouseLeave(object sender, EventArgs e)
+        {
+            btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
         }
     }
 }

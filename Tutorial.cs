@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prueba1
 {
-    public partial class Form10 : Form
+    public partial class Tutorial : Form
     {
-        public Form10()
+        public Tutorial()
         {
             InitializeComponent();
         }
@@ -66,7 +66,7 @@ namespace prueba1
             Application.Exit();
         }
 
-        Form f3 = new Form3();
+        Form f3 = new ABCyEsp();
 
         private void btnABC_Click(object sender, EventArgs e)
         {

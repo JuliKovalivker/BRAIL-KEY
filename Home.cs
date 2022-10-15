@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace prueba1
 {
-    public partial class Form1 : Form
+    public partial class Home : Form
     {
-        public Form1()
+        public Home()
         {
             InitializeComponent();
         }
 
-        Form f2 = new Form2();
-        Form f3 = new Form3();
-        Form f4 = new Form4();
-        Form f5 = new Form5();
-        Form f6 = new Form6();
-        Form f10 = new Form10();
+        Form f2 = new Traductor();
+        Form f3 = new ABCyEsp();
+        Form f4 = new Info();
+        Form f5 = new Juegos();
+        Form f6 = new M1N1();
+        Form f10 = new Tutorial();
 
         private void Form1_Load(object sender, EventArgs e)
         {

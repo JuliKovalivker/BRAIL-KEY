@@ -1,6 +1,6 @@
 ﻿namespace prueba1
 {
-    partial class Form3
+    partial class ABCyEsp
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ABCyEsp));
             this.abc = new System.Windows.Forms.PictureBox();
             this.btnCambio = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
@@ -101,6 +101,7 @@
             this.especiales.Size = new System.Drawing.Size(976, 380);
             this.especiales.TabIndex = 12;
             this.especiales.TabStop = false;
+            this.especiales.Visible = false;
             // 
             // btnCambio2
             // 
@@ -117,11 +118,12 @@
             this.btnCambio2.Size = new System.Drawing.Size(976, 82);
             this.btnCambio2.TabIndex = 13;
             this.btnCambio2.UseVisualStyleBackColor = false;
+            this.btnCambio2.Visible = false;
             this.btnCambio2.Click += new System.EventHandler(this.btnCambio2_Click);
             this.btnCambio2.MouseLeave += new System.EventHandler(this.btnCambio2_MouseLeave);
             this.btnCambio2.MouseHover += new System.EventHandler(this.btnCambio2_MouseHover);
             // 
-            // Form3
+            // ABCyEsp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -129,18 +131,17 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1348, 721);
             this.Controls.Add(this.btnCambio2);
-            this.Controls.Add(this.especiales);
             this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnCambio);
+            this.Controls.Add(this.especiales);
             this.Controls.Add(this.abc);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form3";
+            this.Name = "ABCyEsp";
             this.Text = "Brail፧Key";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_FormClosed);
-//            this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.abc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.especiales)).EndInit();
             this.ResumeLayout(false);

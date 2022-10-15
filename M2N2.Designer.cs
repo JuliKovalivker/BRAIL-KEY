@@ -1,7 +1,7 @@
 ﻿
 namespace prueba1
 {
-    partial class Form11
+    partial class M2N2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace prueba1
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form11));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(M2N2));
             this.btnABC = new System.Windows.Forms.Button();
             this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
@@ -58,6 +58,7 @@ namespace prueba1
             this.z = new System.Windows.Forms.PictureBox();
             this.x = new System.Windows.Forms.PictureBox();
             this.port_botonera = new System.IO.Ports.SerialPort(this.components);
+            this.btnAtras = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -89,7 +90,7 @@ namespace prueba1
             this.btnABC.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnABC.FlatAppearance.BorderSize = 0;
             this.btnABC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnABC.Location = new System.Drawing.Point(1059, 62);
+            this.btnABC.Location = new System.Drawing.Point(980, 62);
             this.btnABC.Margin = new System.Windows.Forms.Padding(4);
             this.btnABC.Name = "btnABC";
             this.btnABC.Size = new System.Drawing.Size(167, 75);
@@ -220,12 +221,13 @@ namespace prueba1
             this.txtLetra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(159)))), ((int)(((byte)(207)))));
             this.txtLetra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtLetra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtLetra.Location = new System.Drawing.Point(693, 514);
+            this.txtLetra.Location = new System.Drawing.Point(562, 517);
             this.txtLetra.Margin = new System.Windows.Forms.Padding(4);
             this.txtLetra.Multiline = true;
             this.txtLetra.Name = "txtLetra";
-            this.txtLetra.Size = new System.Drawing.Size(71, 39);
+            this.txtLetra.Size = new System.Drawing.Size(313, 36);
             this.txtLetra.TabIndex = 55;
+            this.txtLetra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
@@ -441,13 +443,33 @@ namespace prueba1
             // 
             this.port_botonera.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.port_botonera_DataReceived);
             // 
-            // Form11
+            // btnAtras
+            // 
+            this.btnAtras.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAtras.BackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(1176, 59);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(88, 81);
+            this.btnAtras.TabIndex = 65;
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            this.btnAtras.MouseLeave += new System.EventHandler(this.btnAtras_MouseLeave);
+            this.btnAtras.MouseHover += new System.EventHandler(this.btnAtras_MouseHover);
+            // 
+            // M2N2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::prueba1.Properties.Resources.FONDO_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnABC);
             this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnAceptar);
@@ -477,7 +499,7 @@ namespace prueba1
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form11";
+            this.Name = "M2N2";
             this.Text = "Brail፧Key";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form11_FormClosed);
@@ -538,5 +560,6 @@ namespace prueba1
         private System.Windows.Forms.PictureBox z;
         private System.Windows.Forms.PictureBox x;
         private System.IO.Ports.SerialPort port_botonera;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

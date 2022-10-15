@@ -14,7 +14,7 @@ using System.Threading;
 
 namespace prueba1
 {
-    public partial class Form2 : Form
+    public partial class Traductor : Form
     {
         Dictionary<char, int> charToDecimal = new Dictionary<char, int>();
         char[] decimalToChar = new char[64];
@@ -29,14 +29,14 @@ namespace prueba1
         private PrivateFontCollection fonts = new PrivateFontCollection();
         Font Font_B, Font_L;
 
-        Form f3 = new Form3();
+        Form f3 = new ABCyEsp();
         string mensaje;
         bool sending;
         int count = 0;
         int done = 0;
         string serial;
 
-        public Form2()
+        public Traductor()
         {
             InitializeComponent();
             byte[] fontData = Properties.Resources.Braille_Type;

@@ -14,7 +14,7 @@ using System.Threading;
 
 namespace prueba1
 {
-    public partial class Form8 : Form
+    public partial class M1N3 : Form
     {
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
         private static extern IntPtr AddFontMemResourceEx(IntPtr pbFont, uint cbFont,
@@ -23,7 +23,7 @@ namespace prueba1
         private PrivateFontCollection fonts = new PrivateFontCollection();
         Font Font_L;
 
-        public Form8()
+        public M1N3()
         {
             InitializeComponent();
 
@@ -45,6 +45,9 @@ namespace prueba1
         string[] txtBox = { "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ",", "?", "!", ":", "(", ")", ";" };
         int[] anteriores = new int[5];
         PictureBox[] hechos_ = new PictureBox[6];
+        int vidas = 3;
+        int hechos = 0;
+        Form f3 = new ABCyEsp();
 
         private void Form8_Load(object sender, EventArgs e)
         {
@@ -75,57 +78,50 @@ namespace prueba1
             letras[15] = cp;
             letras[16] = pyc;
 
-            hechos_[0] = pictureBox9;
-            hechos_[1] = pictureBox1;
-            hechos_[2] = pictureBox2;
-            hechos_[3] = pictureBox3;
-            hechos_[4] = pictureBox4;
-            hechos_[5] = pictureBox5;
+            hechos_[0] = barra0;
+            hechos_[1] = barra1;
+            hechos_[2] = barra2;
+            hechos_[3] = barra3;
+            hechos_[4] = barra4;
+            hechos_[5] = barra5;
 
             foreach (PictureBox ptbL in letras)
-            {
                 ptbL.Visible = false;
-            }
 
             letras[letraElegida - 1].Visible = true;
 
               for (int i = 1; i <= hechos_.Length - 1; i++)
-              {
                   hechos_[i].Visible = false;
-              }
 
+            barra1.Visible = true;
+            barra2.Visible = true;
+            barra3.Visible = true;
+            txtLetra.Text = "";
+            letraElegida = random.Next(1, letra.Length);
+            vidas = 3;
+            hechos = 0;
+            hechos_[0].Visible = true;
         }
-
-        int vidas = 3;
-        int hechos = 0;
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            if (txtLetra.Text == txtBox[letraElegida - 1])
+            if(txtLetra.Text == txtBox[letraElegida - 1])
             {
                 hechos++;
                 hechos_[hechos].Visible = true;
                 hechos_[hechos - 1].Visible = false;
                 anteriores[hechos - 1] = letraElegida;
 
-                if (hechos == 5)
+                if(hechos == 5)
                 {
-                    pictureBox9.Visible = true;
+                    barra0.Visible = true;
                     MessageBox.Show("Ganaste!");
                     this.Visible = false;
-                    pictureBox1.Visible = true;
-                    pictureBox2.Visible = true;
-                    pictureBox3.Visible = true;
-                    txtLetra.Text = "";
-                    letraElegida = random.Next(1, letra.Length);
-                    vidas = 3;
-                    hechos = 0;
-                    hechos_[0].Visible = true;
+                    
                 }
-
                 else
                 {
-                    MessageBox.Show("Correcto! Cierra para hacer el siguiente");
+                    MessageBox.Show("Correcto!");
                     letras[letraElegida - 1].Visible = false;
                     txtLetra.Text = "";
                     letraElegida = random.Next(1, letra.Length);
@@ -139,64 +135,38 @@ namespace prueba1
                     }
                 }
             }
-
             else
             {
-                vidas = vidas - 1;
+                vidas--;
 
-                if (vidas == 0)
+                if(vidas == 0)
                 {
-                    pictureBox1.Visible = false;
-                    MessageBox.Show("Perdiste! Cierra para volver a comenzar");
-                    hechos = 0;
-                    vidas = 3;
-                    txtLetra.Text = "";
+                    barra1.Visible = false;
+                    MessageBox.Show("Perdiste!");
                     this.Visible = false;
-                    pictureBox1.Visible = true;
-                    pictureBox2.Visible = true;
-                    pictureBox3.Visible = true;
-                    hechos_[0].Visible = true;
+                  
                 }
-
                 else
                 {
-                    MessageBox.Show("Incorrecto! Cierra para volver a intentar");
+                    MessageBox.Show("Incorrecto!");
 
-                    if (vidas == 2)
-                    {
-                        pictureBox3.Visible = false;
-                    }
+                    if(vidas == 2)
+                        vida3.Visible = false;
 
-                    if (vidas == 1)
-                    {
-                        pictureBox2.Visible = false;
-                    }
+                    if(vidas == 1)
+                        vida2.Visible = false;
 
                     txtLetra.Text = "";
                 }
             }
         }
-
-        private void btnSiguiente_Click(object sender, EventArgs e)
-        {
-            foreach (PictureBox ptbL in letras)
-            {
-                ptbL.Visible = false;
-            }
-
-            letras[letraElegida - 1].Visible = true;
-        }
-
-        Form f3 = new Form3();
 
         private void btnABC_Click(object sender, EventArgs e)
         {
             f3.ShowDialog();
             this.Visible = false;
             if (f3.Visible == false)
-            {
                 this.Visible = true;
-            }
         }
 
         private void btnABC_MouseHover(object sender, EventArgs e)
@@ -221,15 +191,25 @@ namespace prueba1
             btnAceptar.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_TIC1;
         }
 
-        private void btnSiguiente_MouseHover(object sender, EventArgs e)
+        private void btnAtras_Click(object sender, EventArgs e)
         {
-            btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA_Press;
-            btnSiguiente.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            this.Visible = false;
         }
 
-        private void btnSiguiente_MouseLeave(object sender, EventArgs e)
+        private void btnAtras_MouseHover(object sender, EventArgs e)
         {
-            btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
+            btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit_Press;
+            btnAtras.FlatAppearance.MouseOverBackColor = Color.Transparent;
+        }
+
+        private void btnAtras_MouseLeave(object sender, EventArgs e)
+        {
+            btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
+        }
+
+        private void M1N3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

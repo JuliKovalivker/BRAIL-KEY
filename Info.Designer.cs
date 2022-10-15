@@ -1,6 +1,6 @@
 ﻿namespace prueba1
 {
-    partial class Form4
+    partial class Info
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Info));
             this.back = new System.Windows.Forms.Button();
             this.next = new System.Windows.Forms.Button();
             this.btnABC = new System.Windows.Forms.Button();

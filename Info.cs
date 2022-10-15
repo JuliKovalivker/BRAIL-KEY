@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace prueba1
 {
-    public partial class Form4 : Form
+    public partial class Info : Form
     {
-        public Form4()
+        public Info()
         {
             InitializeComponent();
         }
 
         PictureBox[] x = new PictureBox[5];
         int i = 0;
-        Form f3 = new Form3();
+        Form f3 = new ABCyEsp();
 
         private void Form4_Load(object sender, EventArgs e)
         {

@@ -1,6 +1,6 @@
 ﻿namespace prueba1
 {
-    partial class Form9
+    partial class M2N1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form9));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(M2N1));
             this.port_botonera = new System.IO.Ports.SerialPort(this.components);
             this.txtLetra = new System.Windows.Forms.TextBox();
             this.btnABC = new System.Windows.Forms.Button();
@@ -44,7 +44,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.n = new System.Windows.Forms.PictureBox();
             this.m = new System.Windows.Forms.PictureBox();
-            this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.l = new System.Windows.Forms.PictureBox();
             this.k = new System.Windows.Forms.PictureBox();
@@ -59,6 +58,7 @@
             this.b = new System.Windows.Forms.PictureBox();
             this.a = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnAtras = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -94,12 +94,13 @@
             this.txtLetra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(159)))), ((int)(((byte)(207)))));
             this.txtLetra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtLetra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtLetra.Location = new System.Drawing.Point(697, 514);
+            this.txtLetra.Location = new System.Drawing.Point(564, 517);
             this.txtLetra.Margin = new System.Windows.Forms.Padding(4);
             this.txtLetra.Multiline = true;
             this.txtLetra.Name = "txtLetra";
-            this.txtLetra.Size = new System.Drawing.Size(59, 46);
+            this.txtLetra.Size = new System.Drawing.Size(312, 38);
             this.txtLetra.TabIndex = 41;
+            this.txtLetra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnABC
             // 
@@ -110,10 +111,10 @@
             this.btnABC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnABC.FlatAppearance.BorderSize = 0;
             this.btnABC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnABC.Location = new System.Drawing.Point(1107, 64);
+            this.btnABC.Location = new System.Drawing.Point(965, 55);
             this.btnABC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnABC.Name = "btnABC";
-            this.btnABC.Size = new System.Drawing.Size(171, 69);
+            this.btnABC.Size = new System.Drawing.Size(182, 75);
             this.btnABC.TabIndex = 56;
             this.btnABC.UseVisualStyleBackColor = false;
             this.btnABC.Click += new System.EventHandler(this.btnABC_Click);
@@ -263,25 +264,6 @@
             this.m.TabIndex = 44;
             this.m.TabStop = false;
             // 
-            // btnSiguiente
-            // 
-            this.btnSiguiente.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSiguiente.BackColor = System.Drawing.Color.Transparent;
-            this.btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
-            this.btnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSiguiente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSiguiente.FlatAppearance.BorderSize = 0;
-            this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSiguiente.Location = new System.Drawing.Point(731, 587);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(177, 71);
-            this.btnSiguiente.TabIndex = 43;
-            this.btnSiguiente.UseVisualStyleBackColor = false;
-            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
-            this.btnSiguiente.MouseLeave += new System.EventHandler(this.btnSiguiente_MouseLeave);
-            this.btnSiguiente.MouseHover += new System.EventHandler(this.btnSiguiente_MouseHover);
-            // 
             // btnAceptar
             // 
             this.btnAceptar.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -291,7 +273,7 @@
             this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAceptar.FlatAppearance.BorderSize = 0;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Location = new System.Drawing.Point(529, 587);
+            this.btnAceptar.Location = new System.Drawing.Point(632, 579);
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(177, 71);
@@ -472,13 +454,33 @@
             this.button1.TabIndex = 54;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // Form9
+            // btnAtras
+            // 
+            this.btnAtras.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAtras.BackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(1171, 52);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(88, 81);
+            this.btnAtras.TabIndex = 57;
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            this.btnAtras.MouseLeave += new System.EventHandler(this.btnAtras_MouseLeave);
+            this.btnAtras.MouseHover += new System.EventHandler(this.btnAtras_MouseHover);
+            // 
+            // M2N1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::prueba1.Properties.Resources.FONDO_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.btnABC);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox8);
@@ -491,7 +493,6 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.n);
             this.Controls.Add(this.m);
-            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtLetra);
             this.Controls.Add(this.l);
@@ -510,7 +511,7 @@
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form9";
+            this.Name = "M2N1";
             this.Text = "Brail፧Key";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form9_FormClosed_1);
@@ -559,7 +560,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox n;
         private System.Windows.Forms.PictureBox m;
-        private System.Windows.Forms.Button btnSiguiente;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.TextBox txtLetra;
         private System.Windows.Forms.PictureBox l;
@@ -575,5 +575,6 @@
         private System.Windows.Forms.PictureBox b;
         private System.Windows.Forms.PictureBox a;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

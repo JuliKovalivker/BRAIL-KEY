@@ -1,6 +1,6 @@
 ﻿namespace prueba1
 {
-    partial class Form5
+    partial class Juegos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Juegos));
             this.btnHome = new System.Windows.Forms.Button();
             this.btnABC = new System.Windows.Forms.Button();
             this.btnModo1Lvl3 = new System.Windows.Forms.Button();

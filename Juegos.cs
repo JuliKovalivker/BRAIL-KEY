@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace prueba1
 {
-    public partial class Form5 : Form
+    public partial class Juegos : Form
     {
-        public Form5()
+        public Juegos()
         {
             InitializeComponent();
         }
 
-        Form f6 = new Form6();
-        Form f7 = new Form7();
-        Form f8 = new Form8();
+        Form f6 = new M1N1();
+        Form f7 = new M1N2();
+        Form f8 = new M1N3();
         
 
         private void Form5_Load(object sender, EventArgs e)
@@ -159,7 +159,7 @@ namespace prueba1
             this.Visible = false;           
         }
 
-        Form f9 = new Form9();
+        Form f9 = new M2N1();
 
         private void btnModo2Lvl1_Click(object sender, EventArgs e)
         {
@@ -171,7 +171,7 @@ namespace prueba1
             }
         }
 
-        Form f11 = new Form11();
+        Form f11 = new M2N2();
 
         private void btnModo2Lvl2_Click(object sender, EventArgs e)
         {
@@ -183,7 +183,7 @@ namespace prueba1
             }
         }
 
-        Form f3 = new Form3();
+        Form f3 = new ABCyEsp();
 
         private void btnABC_Click(object sender, EventArgs e)
         {
@@ -195,7 +195,7 @@ namespace prueba1
             }
         }
 
-        Form f12 = new Form12();
+        Form f12 = new M2N3();
 
         private void btnModo2Lvl3_Click(object sender, EventArgs e)
         {

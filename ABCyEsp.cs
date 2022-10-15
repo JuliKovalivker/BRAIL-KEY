@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace prueba1
 {
-    public partial class Form3 : Form
+    public partial class ABCyEsp : Form
     {
-        public Form3()
+        public ABCyEsp()
         {
             InitializeComponent();
         }
@@ -45,7 +45,11 @@ namespace prueba1
             especiales.Visible = true;
             btnCambio2.Visible = true;
             btnCambio.Visible = true; 
-            this.Visible = false;        
+            this.Visible = false;
+            abc.Visible = true;
+            btnCambio.Visible = true;
+            especiales.Visible = false;
+            btnCambio2.Visible = false;
         }
 
         private void btnCambio_Click(object sender, EventArgs e)
@@ -85,20 +89,10 @@ namespace prueba1
         {
             btnCambio2.BackgroundImage = global::prueba1.Properties.Resources.flecha_back_larga;
         }
-
-        private void btnHome_Click_1(object sender, EventArgs e)
-        {
-            abc.Visible = true;
-            especiales.Visible = true;
-            btnCambio2.Visible = true;
-            btnCambio.Visible = true;
-            this.Visible = false;
-            Form f1 = new Form1();
-        }
-
         private void Form3_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
+
     }
 }

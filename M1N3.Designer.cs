@@ -1,7 +1,7 @@
 ﻿
 namespace prueba1
 {
-    partial class Form8
+    partial class M1N3
     {
         /// <summary>
         /// Required designer variable.
@@ -29,20 +29,19 @@ namespace prueba1
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form8));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(M1N3));
             this.txtLetra = new System.Windows.Forms.TextBox();
-            this.btnSiguiente = new System.Windows.Forms.Button();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.vida3 = new System.Windows.Forms.PictureBox();
+            this.vida2 = new System.Windows.Forms.PictureBox();
+            this.vida1 = new System.Windows.Forms.PictureBox();
+            this.barra5 = new System.Windows.Forms.PictureBox();
+            this.barra4 = new System.Windows.Forms.PictureBox();
+            this.barra3 = new System.Windows.Forms.PictureBox();
+            this.barra2 = new System.Windows.Forms.PictureBox();
+            this.barra1 = new System.Windows.Forms.PictureBox();
+            this.barra0 = new System.Windows.Forms.PictureBox();
             this._1_ = new System.Windows.Forms.PictureBox();
             this._2_ = new System.Windows.Forms.PictureBox();
             this._3_ = new System.Windows.Forms.PictureBox();
@@ -61,15 +60,16 @@ namespace prueba1
             this.pyc = new System.Windows.Forms.PictureBox();
             this.cp = new System.Windows.Forms.PictureBox();
             this.ap = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            this.btnAtras = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.vida3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vida2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vida1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._1_)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._2_)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this._3_)).BeginInit();
@@ -95,31 +95,13 @@ namespace prueba1
             this.txtLetra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(149)))), ((int)(((byte)(159)))), ((int)(((byte)(207)))));
             this.txtLetra.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtLetra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtLetra.Location = new System.Drawing.Point(656, 494);
+            this.txtLetra.Location = new System.Drawing.Point(525, 502);
             this.txtLetra.Margin = new System.Windows.Forms.Padding(4);
             this.txtLetra.Multiline = true;
             this.txtLetra.Name = "txtLetra";
-            this.txtLetra.Size = new System.Drawing.Size(65, 46);
+            this.txtLetra.Size = new System.Drawing.Size(298, 40);
             this.txtLetra.TabIndex = 41;
-            // 
-            // btnSiguiente
-            // 
-            this.btnSiguiente.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btnSiguiente.BackColor = System.Drawing.Color.Transparent;
-            this.btnSiguiente.BackgroundImage = global::prueba1.Properties.Resources.GRUPO_FLECHA;
-            this.btnSiguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnSiguiente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnSiguiente.FlatAppearance.BorderSize = 0;
-            this.btnSiguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSiguiente.Location = new System.Drawing.Point(691, 571);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSiguiente.Name = "btnSiguiente";
-            this.btnSiguiente.Size = new System.Drawing.Size(177, 71);
-            this.btnSiguiente.TabIndex = 43;
-            this.btnSiguiente.UseVisualStyleBackColor = false;
-            this.btnSiguiente.Click += new System.EventHandler(this.btnSiguiente_Click);
-            this.btnSiguiente.MouseLeave += new System.EventHandler(this.btnSiguiente_MouseLeave);
-            this.btnSiguiente.MouseHover += new System.EventHandler(this.btnSiguiente_MouseHover);
+            this.txtLetra.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnAceptar
             // 
@@ -130,7 +112,7 @@ namespace prueba1
             this.btnAceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAceptar.FlatAppearance.BorderSize = 0;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Location = new System.Drawing.Point(488, 571);
+            this.btnAceptar.Location = new System.Drawing.Point(581, 572);
             this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(177, 71);
@@ -155,122 +137,122 @@ namespace prueba1
             this.button1.TabIndex = 44;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // pictureBox8
+            // vida3
             // 
-            this.pictureBox8.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox8.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_21;
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox8.Location = new System.Drawing.Point(235, 130);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(84, 65);
-            this.pictureBox8.TabIndex = 40;
-            this.pictureBox8.TabStop = false;
+            this.vida3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.vida3.BackColor = System.Drawing.Color.Transparent;
+            this.vida3.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_21;
+            this.vida3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.vida3.Location = new System.Drawing.Point(235, 130);
+            this.vida3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.vida3.Name = "vida3";
+            this.vida3.Size = new System.Drawing.Size(84, 65);
+            this.vida3.TabIndex = 40;
+            this.vida3.TabStop = false;
             // 
-            // pictureBox7
+            // vida2
             // 
-            this.pictureBox7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox7.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_21;
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox7.Location = new System.Drawing.Point(148, 130);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(84, 65);
-            this.pictureBox7.TabIndex = 39;
-            this.pictureBox7.TabStop = false;
+            this.vida2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.vida2.BackColor = System.Drawing.Color.Transparent;
+            this.vida2.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_21;
+            this.vida2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.vida2.Location = new System.Drawing.Point(148, 130);
+            this.vida2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.vida2.Name = "vida2";
+            this.vida2.Size = new System.Drawing.Size(84, 65);
+            this.vida2.TabIndex = 39;
+            this.vida2.TabStop = false;
             // 
-            // pictureBox6
+            // vida1
             // 
-            this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_21;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox6.Location = new System.Drawing.Point(67, 130);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(84, 65);
-            this.pictureBox6.TabIndex = 38;
-            this.pictureBox6.TabStop = false;
+            this.vida1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.vida1.BackColor = System.Drawing.Color.Transparent;
+            this.vida1.BackgroundImage = global::prueba1.Properties.Resources.coracon_pe_21;
+            this.vida1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.vida1.Location = new System.Drawing.Point(67, 130);
+            this.vida1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.vida1.Name = "vida1";
+            this.vida1.Size = new System.Drawing.Size(84, 65);
+            this.vida1.TabIndex = 38;
+            this.vida1.TabStop = false;
             // 
-            // pictureBox5
+            // barra5
             // 
-            this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.BackgroundImage = global::prueba1.Properties.Resources.barra_5;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(41, 66);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(307, 59);
-            this.pictureBox5.TabIndex = 37;
-            this.pictureBox5.TabStop = false;
+            this.barra5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.barra5.BackColor = System.Drawing.Color.Transparent;
+            this.barra5.BackgroundImage = global::prueba1.Properties.Resources.barra_5;
+            this.barra5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.barra5.Location = new System.Drawing.Point(41, 67);
+            this.barra5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barra5.Name = "barra5";
+            this.barra5.Size = new System.Drawing.Size(307, 59);
+            this.barra5.TabIndex = 37;
+            this.barra5.TabStop = false;
             // 
-            // pictureBox4
+            // barra4
             // 
-            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = global::prueba1.Properties.Resources.barra_4;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(41, 66);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(307, 59);
-            this.pictureBox4.TabIndex = 36;
-            this.pictureBox4.TabStop = false;
+            this.barra4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.barra4.BackColor = System.Drawing.Color.Transparent;
+            this.barra4.BackgroundImage = global::prueba1.Properties.Resources.barra_4;
+            this.barra4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.barra4.Location = new System.Drawing.Point(41, 64);
+            this.barra4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barra4.Name = "barra4";
+            this.barra4.Size = new System.Drawing.Size(307, 59);
+            this.barra4.TabIndex = 36;
+            this.barra4.TabStop = false;
             // 
-            // pictureBox3
+            // barra3
             // 
-            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::prueba1.Properties.Resources.barra_3;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(41, 66);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(307, 59);
-            this.pictureBox3.TabIndex = 35;
-            this.pictureBox3.TabStop = false;
+            this.barra3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.barra3.BackColor = System.Drawing.Color.Transparent;
+            this.barra3.BackgroundImage = global::prueba1.Properties.Resources.barra_3;
+            this.barra3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.barra3.Location = new System.Drawing.Point(41, 62);
+            this.barra3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barra3.Name = "barra3";
+            this.barra3.Size = new System.Drawing.Size(307, 59);
+            this.barra3.TabIndex = 35;
+            this.barra3.TabStop = false;
             // 
-            // pictureBox2
+            // barra2
             // 
-            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::prueba1.Properties.Resources.barra_2;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(41, 66);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(307, 59);
-            this.pictureBox2.TabIndex = 34;
-            this.pictureBox2.TabStop = false;
+            this.barra2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.barra2.BackColor = System.Drawing.Color.Transparent;
+            this.barra2.BackgroundImage = global::prueba1.Properties.Resources.barra_2;
+            this.barra2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.barra2.Location = new System.Drawing.Point(41, 59);
+            this.barra2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barra2.Name = "barra2";
+            this.barra2.Size = new System.Drawing.Size(307, 59);
+            this.barra2.TabIndex = 34;
+            this.barra2.TabStop = false;
             // 
-            // pictureBox1
+            // barra1
             // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::prueba1.Properties.Resources.barra_1;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(41, 66);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(307, 59);
-            this.pictureBox1.TabIndex = 33;
-            this.pictureBox1.TabStop = false;
+            this.barra1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.barra1.BackColor = System.Drawing.Color.Transparent;
+            this.barra1.BackgroundImage = global::prueba1.Properties.Resources.barra_1;
+            this.barra1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.barra1.Location = new System.Drawing.Point(41, 66);
+            this.barra1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barra1.Name = "barra1";
+            this.barra1.Size = new System.Drawing.Size(307, 59);
+            this.barra1.TabIndex = 33;
+            this.barra1.TabStop = false;
             // 
-            // pictureBox9
+            // barra0
             // 
-            this.pictureBox9.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox9.BackgroundImage = global::prueba1.Properties.Resources.barra_0;
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox9.Location = new System.Drawing.Point(41, 57);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(340, 79);
-            this.pictureBox9.TabIndex = 32;
-            this.pictureBox9.TabStop = false;
+            this.barra0.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.barra0.BackColor = System.Drawing.Color.Transparent;
+            this.barra0.BackgroundImage = global::prueba1.Properties.Resources.barra_0;
+            this.barra0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.barra0.Location = new System.Drawing.Point(41, 57);
+            this.barra0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.barra0.Name = "barra0";
+            this.barra0.Size = new System.Drawing.Size(340, 79);
+            this.barra0.TabIndex = 32;
+            this.barra0.TabStop = false;
             // 
             // _1_
             // 
@@ -284,6 +266,7 @@ namespace prueba1
             this._1_.Size = new System.Drawing.Size(451, 353);
             this._1_.TabIndex = 31;
             this._1_.TabStop = false;
+//            this._1_.Click += new System.EventHandler(this._1__Click);
             // 
             // _2_
             // 
@@ -463,10 +446,10 @@ namespace prueba1
             this.btnABC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnABC.FlatAppearance.BorderSize = 0;
             this.btnABC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnABC.Location = new System.Drawing.Point(1093, 66);
+            this.btnABC.Location = new System.Drawing.Point(974, 41);
             this.btnABC.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnABC.Name = "btnABC";
-            this.btnABC.Size = new System.Drawing.Size(171, 69);
+            this.btnABC.Size = new System.Drawing.Size(181, 78);
             this.btnABC.TabIndex = 45;
             this.btnABC.UseVisualStyleBackColor = false;
             this.btnABC.Click += new System.EventHandler(this.btnABC_Click);
@@ -512,30 +495,49 @@ namespace prueba1
             this.ap.TabIndex = 48;
             this.ap.TabStop = false;
             // 
-            // Form8
+            // btnAtras
+            // 
+            this.btnAtras.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnAtras.BackColor = System.Drawing.Color.Transparent;
+            this.btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
+            this.btnAtras.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnAtras.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAtras.FlatAppearance.BorderSize = 0;
+            this.btnAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtras.Location = new System.Drawing.Point(1171, 41);
+            this.btnAtras.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnAtras.Name = "btnAtras";
+            this.btnAtras.Size = new System.Drawing.Size(88, 81);
+            this.btnAtras.TabIndex = 49;
+            this.btnAtras.UseVisualStyleBackColor = false;
+            this.btnAtras.Click += new System.EventHandler(this.btnAtras_Click);
+            this.btnAtras.MouseLeave += new System.EventHandler(this.btnAtras_MouseLeave);
+            this.btnAtras.MouseHover += new System.EventHandler(this.btnAtras_MouseHover);
+            // 
+            // M1N3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::prueba1.Properties.Resources.FONDO_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1348, 721);
+            this.Controls.Add(this.btnAtras);
             this.Controls.Add(this.ap);
             this.Controls.Add(this.cp);
             this.Controls.Add(this.pyc);
             this.Controls.Add(this.btnABC);
-            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtLetra);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox9);
+            this.Controls.Add(this.vida3);
+            this.Controls.Add(this.vida2);
+            this.Controls.Add(this.vida1);
+            this.Controls.Add(this.barra5);
+            this.Controls.Add(this.barra4);
+            this.Controls.Add(this.barra3);
+            this.Controls.Add(this.barra2);
+            this.Controls.Add(this.barra1);
+            this.Controls.Add(this.barra0);
             this.Controls.Add(this._1_);
             this.Controls.Add(this._2_);
             this.Controls.Add(this._3_);
@@ -553,19 +555,20 @@ namespace prueba1
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Name = "Form8";
+            this.Name = "M1N3";
             this.Text = "Brail፧Key";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.M1N3_FormClosed);
             this.Load += new System.EventHandler(this.Form8_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vida3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vida2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vida1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.barra0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._1_)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._2_)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this._3_)).EndInit();
@@ -604,16 +607,15 @@ namespace prueba1
         private System.Windows.Forms.PictureBox _3_;
         private System.Windows.Forms.PictureBox _2_;
         private System.Windows.Forms.PictureBox _1_;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Button btnSiguiente;
+        private System.Windows.Forms.PictureBox barra0;
+        private System.Windows.Forms.PictureBox barra1;
+        private System.Windows.Forms.PictureBox barra2;
+        private System.Windows.Forms.PictureBox barra3;
+        private System.Windows.Forms.PictureBox barra4;
+        private System.Windows.Forms.PictureBox barra5;
+        private System.Windows.Forms.PictureBox vida1;
+        private System.Windows.Forms.PictureBox vida2;
+        private System.Windows.Forms.PictureBox vida3;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.TextBox txtLetra;
         private System.Windows.Forms.Button button1;
@@ -621,5 +623,6 @@ namespace prueba1
         private System.Windows.Forms.PictureBox pyc;
         private System.Windows.Forms.PictureBox cp;
         private System.Windows.Forms.PictureBox ap;
+        private System.Windows.Forms.Button btnAtras;
     }
 }

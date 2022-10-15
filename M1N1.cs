@@ -187,6 +187,7 @@ namespace prueba1
                 {
                     barra5.Visible = true;
                     MessageBox.Show("Ganaste!");
+                    //port_display.Write("0");
                     this.Visible = false;
                     
                 }
@@ -220,6 +221,7 @@ namespace prueba1
                 {
                     vida1.Visible = false;
                     MessageBox.Show("Perdiste!");
+                    //port_display.Write("0");
                     this.Visible = false;
 
                 }

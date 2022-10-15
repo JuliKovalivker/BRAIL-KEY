@@ -229,9 +229,9 @@ namespace prueba1
 
         private void port_display_DataReceived(object sender, SerialDataReceivedEventArgs e)
         {
-            serial = port_display.ReadLine();
+            /*serial = port_display.ReadLine();
             if (txt1.Focus())
-                txt1.Text += serial;
+                txt1.Text += serial;*/
         }
 
         private void btnABC_Click(object sender, EventArgs e)
@@ -280,20 +280,24 @@ namespace prueba1
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            try
+            if (this.Visible)
             {
-                if (!port_display.IsOpen)
+                try
                 {
-                    port_display.PortName = PUERTO_DISPLAY;
-                    port_display.BaudRate = 9600;
-                    port_display.Open();
-                }
+                    if (!port_display.IsOpen)
+                    {
+                        port_display.PortName = PUERTO_DISPLAY;
+                        port_display.BaudRate = 9600;
+                        port_display.Open();
+                    }
 
+                }
+                catch
+                {
+                    //MessageBox.Show("agghd");
+                }
             }
-            catch
-            {
-                //MessageBox.Show("agghd");
-            }
+            
             if (this.Visible)
             {
                 try

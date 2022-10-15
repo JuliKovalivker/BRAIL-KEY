@@ -19,7 +19,7 @@ namespace prueba1
         Dictionary<char, int> charToDecimal = new Dictionary<char, int>();
         char[] decimalToChar = new char[64];
 
-        string PUERTO_DISPLAY = "COM5";
+        string PUERTO_DISPLAY = "COM4";
         string PUERTO_BOTONERA = "COM3";
 
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
@@ -303,6 +303,7 @@ namespace prueba1
                         port_botonera.PortName = PUERTO_BOTONERA;
                         port_botonera.BaudRate = 9600;
                         port_botonera.Open();
+
                     }
 
                 }

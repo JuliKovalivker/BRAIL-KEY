@@ -289,6 +289,7 @@ namespace prueba1
 
         private void btnAtras_Click(object sender, EventArgs e)
         {
+            port_botonera.Close();
             this.Visible = false;
         }
 

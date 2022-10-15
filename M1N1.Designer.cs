@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(M1N1));
             this.txtLetra = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
@@ -57,6 +58,8 @@
             this.barra5 = new System.Windows.Forms.PictureBox();
             this.btnABC = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.port_display = new System.IO.Ports.SerialPort(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.l)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.k)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.j)).BeginInit();
@@ -467,6 +470,17 @@
             this.btnAtras.MouseLeave += new System.EventHandler(this.btnAtras_MouseLeave);
             this.btnAtras.MouseHover += new System.EventHandler(this.btnAtras_MouseHover);
             // 
+            // port_display
+            // 
+            this.port_display.PortName = "COM4";
+//            this.port_display.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.port_display_DataReceived);
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // M1N1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -568,5 +582,7 @@
         private System.Windows.Forms.PictureBox barra5;
         private System.Windows.Forms.Button btnABC;
         private System.Windows.Forms.Button btnAtras;
+        private System.IO.Ports.SerialPort port_display;
+        private System.Windows.Forms.Timer timer1;
     }
 }

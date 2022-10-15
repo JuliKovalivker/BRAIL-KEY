@@ -23,6 +23,14 @@ namespace prueba1
         private PrivateFontCollection fonts = new PrivateFontCollection();
         Font Font_L;
 
+        string PUERTO_DISPLAY = "COM4";
+        string mensaje;
+        bool sending;
+        int count = 0;
+        int done = 0;
+        string serial;
+        Dictionary<char, int> charToDecimal = new Dictionary<char, int>();
+
         public M1N1()
         {
             InitializeComponent();
@@ -98,6 +106,56 @@ namespace prueba1
             vida2.Visible = true;
             vida3.Visible = true;
             hechos_[0].Visible = true;
+
+            if (!charToDecimal.ContainsKey(' '))
+            {
+                charToDecimal.Add(' ', 0);
+                charToDecimal.Add('a', 1);
+                charToDecimal.Add('b', 3);
+                charToDecimal.Add('c', 9);
+                charToDecimal.Add('d', 25);
+                charToDecimal.Add('e', 17);
+                charToDecimal.Add('f', 11);
+                charToDecimal.Add('g', 27);
+                charToDecimal.Add('h', 19);
+                charToDecimal.Add('i', 10);
+                charToDecimal.Add('j', 26);
+                charToDecimal.Add('k', 5);
+                charToDecimal.Add('l', 7);
+                charToDecimal.Add('m', 13);
+                charToDecimal.Add('n', 29);
+                charToDecimal.Add('ñ', 59);
+                charToDecimal.Add('o', 21);
+                charToDecimal.Add('p', 15);
+                charToDecimal.Add('q', 31);
+                charToDecimal.Add('r', 23);
+                charToDecimal.Add('s', 14);
+                charToDecimal.Add('t', 30);
+                charToDecimal.Add('u', 37);
+                charToDecimal.Add('v', 39);
+                charToDecimal.Add('w', 58);
+                charToDecimal.Add('x', 45);
+                charToDecimal.Add('y', 61);
+                charToDecimal.Add('z', 53);
+                charToDecimal.Add('á', 55);
+                charToDecimal.Add('é', 46);
+                charToDecimal.Add('í', 12);
+                charToDecimal.Add('ó', 44);
+                charToDecimal.Add('ú', 62);
+                charToDecimal.Add('ü', 51);
+                charToDecimal.Add('.', 4);
+                charToDecimal.Add(',', 2);
+                charToDecimal.Add('?', 34);
+                //charToDecimal.Add('¿', 34);
+                charToDecimal.Add(';', 6);
+                charToDecimal.Add(':', 18);
+                charToDecimal.Add('!', 22);
+                //charToDecimal.Add('¡', 22);
+                charToDecimal.Add('"', 38);
+                charToDecimal.Add('(', 35);
+                charToDecimal.Add(')', 28);
+                charToDecimal.Add('-', 36);
+            }
 
         }
 
@@ -212,6 +270,28 @@ namespace prueba1
         private void btnAtras_MouseLeave(object sender, EventArgs e)
         {
             btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            /*if(this.Visible)
+            {
+                try
+                {
+                    if (!port_display.IsOpen)
+                    {
+                        port_display.PortName = PUERTO_DISPLAY;
+                        port_display.BaudRate = 9600;
+                        port_display.Open();
+                        MessageBox.Show("o");
+                    }
+
+                }
+                catch
+                {
+                    //MessageBox.Show("agghd");
+                }
+            }*/
         }
     }
 }

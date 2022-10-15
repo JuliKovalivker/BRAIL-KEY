@@ -24,7 +24,7 @@ namespace prueba1
         Font Font_L;
 
         string PUERTO_DISPLAY = "COM4";
-        string mensaje;
+        char mensaje;
         bool sending;
         int count = 0;
         int done = 0;
@@ -156,8 +156,20 @@ namespace prueba1
                 charToDecimal.Add(')', 28);
                 charToDecimal.Add('-', 36);
 
-                mensaje = txtBox[letraElegida - 1];
+                mensaje = char.Parse(txtBox[letraElegida - 1]);
                 sending = true;
+                try
+                {
+                    if (!port_display.IsOpen)
+                    {
+                        port_display.PortName = PUERTO_DISPLAY;
+                        port_display.BaudRate = 9600;
+                        port_display.Open();
+                    }
+
+                }
+                catch { }
+                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
             }
 
         }
@@ -196,8 +208,9 @@ namespace prueba1
                     ptbL.Visible = false;
 
                 letras[letraElegida - 1].Visible = true;
-                mensaje = txtBox[letraElegida - 1];
+                mensaje = char.Parse(txtBox[letraElegida - 1]);
                 sending = true;
+                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
             }
             else
             {
@@ -293,39 +306,39 @@ namespace prueba1
                 }
                 catch {  }
 
-                if (sending)
-                {
-                    try
-                    {
-                        if (done == 0)
-                        {
-                            if (count < mensaje.Length)
-                            {
+               // if (sending)
+                //{
+                  //  try
+                    //{
+                        //if (done == 0)
+                      //  {
+                            //if (count < mensaje.Length)
+                        //    {
                                 //MessageBox.Show(Convert.ToString(charToDecimal[mensaje[count]]));
-                                port_display.Write(Convert.ToString(charToDecimal[mensaje[count]]));
-                                count++;
-                                done++;
-                            }
+                                //port_display.Write(Convert.ToString(charToDecimal[mensaje[0]]));
+                                //count++;
+                                //done++;
+                            /*}/*
                             else
                             {
                                 count = 0;
                                 sending = false;
-                            }
-                        }
-                        else
+                            }*/
+                        //}
+                      /*  else
                         {
                             port_display.Write("0");
                             done = 0;
-                        }
-                    }
-                    catch
-                    {
-                        MessageBox.Show("El display no se encuentra conectado");
+                        }*/
+                    //}
+                    //catch
+                    //{
+                       /* MessageBox.Show("El display no se encuentra conectado");
                         sending = false;
                         count = 0;
-                        done = 0;
-                    }
-                }
+                        done = 0;*/
+                    ///}
+               // }
             }
         }
 

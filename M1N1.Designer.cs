@@ -473,7 +473,7 @@
             // port_display
             // 
             this.port_display.PortName = "COM4";
-            this.port_display.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.port_display_DataReceived);
+//            this.port_display.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.port_display_DataReceived);
             // 
             // timer1
             // 

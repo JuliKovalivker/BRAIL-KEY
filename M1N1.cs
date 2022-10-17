@@ -25,10 +25,6 @@ namespace prueba1
 
         string PUERTO_DISPLAY = "COM4";
         char mensaje;
-        bool sending;
-        int count = 0;
-        int done = 0;
-        string serial;
         Dictionary<char, int> charToDecimal = new Dictionary<char, int>();
 
         public M1N1()
@@ -55,6 +51,7 @@ namespace prueba1
         int vidas = 3;
         int hechos = 0;
         Form f3 = new ABCyEsp();
+        bool start = false;
 
         private void M1N1_Load(object sender, EventArgs e)
         {
@@ -107,7 +104,7 @@ namespace prueba1
             vida3.Visible = true;
             hechos_[0].Visible = true;
 
-            if (!charToDecimal.ContainsKey(' '))
+            if(!charToDecimal.ContainsKey(' '))
             {
                 charToDecimal.Add(' ', 0);
                 charToDecimal.Add('a', 1);
@@ -156,8 +153,8 @@ namespace prueba1
                 charToDecimal.Add(')', 28);
                 charToDecimal.Add('-', 36);
 
-                mensaje = char.Parse(txtBox[letraElegida - 1]);
-                sending = true;
+            }
+
                 try
                 {
                     if (!port_display.IsOpen)
@@ -169,10 +166,11 @@ namespace prueba1
 
                 }
                 catch { }
-                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
-            }
 
-        }
+                mensaje = char.Parse(txtBox[letraElegida - 1]);
+                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+
+            }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
@@ -187,9 +185,10 @@ namespace prueba1
                 {
                     barra5.Visible = true;
                     MessageBox.Show("Ganaste!");
-                    //port_display.Write("0");
+                    port_display.Write("0");
+                    port_display.Close();
                     this.Visible = false;
-                    
+
                 }
                 else
                 {
@@ -203,15 +202,15 @@ namespace prueba1
                         if(anteriores[x] == letraElegida)
                             letraElegida = random.Next(1, letra.Length);
                     }
-                }
-
-                foreach (PictureBox ptbL in letras)
+                    
+                    foreach (PictureBox ptbL in letras)
                     ptbL.Visible = false;
 
-                letras[letraElegida - 1].Visible = true;
-                mensaje = char.Parse(txtBox[letraElegida - 1]);
-                sending = true;
-                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+                    letras[letraElegida - 1].Visible = true;
+                    mensaje = char.Parse(txtBox[letraElegida - 1]);
+                    port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+
+                }
             }
             else
             {
@@ -221,7 +220,8 @@ namespace prueba1
                 {
                     vida1.Visible = false;
                     MessageBox.Show("Perdiste!");
-                    //port_display.Write("0");
+                    port_display.Write("0");
+                    port_display.Close();
                     this.Visible = false;
 
                 }
@@ -279,6 +279,8 @@ namespace prueba1
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Visible = false;
+            port_display.Write("0");
+            port_display.Close();
         }
 
         private void btnAtras_MouseHover(object sender, EventArgs e)
@@ -308,47 +310,7 @@ namespace prueba1
                 }
                 catch {  }
 
-               // if (sending)
-                //{
-                  //  try
-                    //{
-                        //if (done == 0)
-                      //  {
-                            //if (count < mensaje.Length)
-                        //    {
-                                //MessageBox.Show(Convert.ToString(charToDecimal[mensaje[count]]));
-                                //port_display.Write(Convert.ToString(charToDecimal[mensaje[0]]));
-                                //count++;
-                                //done++;
-                            /*}/*
-                            else
-                            {
-                                count = 0;
-                                sending = false;
-                            }*/
-                        //}
-                      /*  else
-                        {
-                            port_display.Write("0");
-                            done = 0;
-                        }*/
-                    //}
-                    //catch
-                    //{
-                       /* MessageBox.Show("El display no se encuentra conectado");
-                        sending = false;
-                        count = 0;
-                        done = 0;*/
-                    ///}
-               // }
             }
-        }
-
-        private void port_display_DataReceived(object sender, SerialDataReceivedEventArgs e)
-        {/*
-            serial = port_display.ReadLine();
-            if (txtLetra.Focus())
-                txtLetra.Text += serial;*/
         }
     }
 }

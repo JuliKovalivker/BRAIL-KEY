@@ -23,6 +23,10 @@ namespace prueba1
         private PrivateFontCollection fonts = new PrivateFontCollection();
         Font Font_L;
 
+        string PUERTO_DISPLAY = "COM4";
+        char mensaje;
+        Dictionary<char, int> charToDecimal = new Dictionary<char, int>();
+
         public M1N3()
         {
             InitializeComponent();
@@ -100,6 +104,83 @@ namespace prueba1
             vidas = 3;
             hechos = 0;
             hechos_[0].Visible = true;
+
+            if (!charToDecimal.ContainsKey(' '))
+            {
+                charToDecimal.Add(' ', 0);
+                charToDecimal.Add('a', 1);
+                charToDecimal.Add('1', 1);
+                charToDecimal.Add('b', 3);
+                charToDecimal.Add('2', 3);
+                charToDecimal.Add('c', 9);
+                charToDecimal.Add('3', 9);
+                charToDecimal.Add('d', 25);
+                charToDecimal.Add('4', 25);
+                charToDecimal.Add('e', 17);
+                charToDecimal.Add('5', 17);
+                charToDecimal.Add('f', 11);
+                charToDecimal.Add('6', 11);
+                charToDecimal.Add('g', 27);
+                charToDecimal.Add('7', 27);
+                charToDecimal.Add('h', 19);
+                charToDecimal.Add('8', 19);
+                charToDecimal.Add('i', 10);
+                charToDecimal.Add('9', 10);
+                charToDecimal.Add('j', 26);
+                charToDecimal.Add('k', 5);
+                charToDecimal.Add('l', 7);
+                charToDecimal.Add('m', 13);
+                charToDecimal.Add('n', 29);
+                charToDecimal.Add('ñ', 59);
+                charToDecimal.Add('o', 21);
+                charToDecimal.Add('p', 15);
+                charToDecimal.Add('q', 31);
+                charToDecimal.Add('r', 23);
+                charToDecimal.Add('s', 14);
+                charToDecimal.Add('t', 30);
+                charToDecimal.Add('u', 37);
+                charToDecimal.Add('v', 39);
+                charToDecimal.Add('w', 58);
+                charToDecimal.Add('x', 45);
+                charToDecimal.Add('y', 61);
+                charToDecimal.Add('z', 53);
+                charToDecimal.Add('á', 55);
+                charToDecimal.Add('é', 46);
+                charToDecimal.Add('í', 12);
+                charToDecimal.Add('ó', 44);
+                charToDecimal.Add('ú', 62);
+                charToDecimal.Add('ü', 51);
+                charToDecimal.Add('.', 4);
+                charToDecimal.Add(',', 2);
+                charToDecimal.Add('?', 34);
+                //charToDecimal.Add('¿', 34);
+                charToDecimal.Add(';', 6);
+                charToDecimal.Add(':', 18);
+                charToDecimal.Add('!', 22);
+                //charToDecimal.Add('¡', 22);
+                charToDecimal.Add('"', 38);
+                charToDecimal.Add('(', 35);
+                charToDecimal.Add(')', 28);
+                charToDecimal.Add('-', 36);
+
+            }
+
+            try
+            {
+                if (!port_display.IsOpen)
+                {
+                    port_display.PortName = PUERTO_DISPLAY;
+                    port_display.BaudRate = 9600;
+                    port_display.Open();
+                }
+
+                mensaje = char.Parse(txtBox[letraElegida - 1]);
+                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+
+            }
+            catch { }
+
+            
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
@@ -115,6 +196,12 @@ namespace prueba1
                 {
                     barra0.Visible = true;
                     MessageBox.Show("Ganaste!");
+                    try
+                    {
+                        port_display.Write("0");
+                        port_display.Close();
+
+                    } catch { }
                     this.Visible = false;
                     
                 }
@@ -132,12 +219,17 @@ namespace prueba1
                             letraElegida = random.Next(1, letra.Length);
                         }
                     }
-                }
-
-                foreach (PictureBox ptbL in letras)
+                    
+                    foreach (PictureBox ptbL in letras)
                     ptbL.Visible = false;
 
-                letras[letraElegida - 1].Visible = true;
+                    letras[letraElegida - 1].Visible = true;
+                    try
+                    {
+                        mensaje = char.Parse(txtBox[letraElegida - 1]);
+                        port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+                    } catch { }
+                }
             }
             else
             {
@@ -147,6 +239,12 @@ namespace prueba1
                 {
                     barra1.Visible = false;
                     MessageBox.Show("Perdiste!");
+                    try
+                    {
+                        port_display.Write("0");
+                        port_display.Close();
+
+                    } catch { }
                     this.Visible = false;
                   
                 }
@@ -198,6 +296,12 @@ namespace prueba1
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Visible = false;
+            try
+            {
+                port_display.Write("0");
+                port_display.Close();
+
+            } catch { }
         }
 
         private void btnAtras_MouseHover(object sender, EventArgs e)
@@ -214,6 +318,25 @@ namespace prueba1
         private void M1N3_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (this.Visible)
+            {
+                try
+                {
+                    if (!port_display.IsOpen)
+                    {
+                        port_display.PortName = PUERTO_DISPLAY;
+                        port_display.BaudRate = 9600;
+                        port_display.Open();
+                    }
+
+                }
+                catch { }
+
+            }
         }
     }
 }

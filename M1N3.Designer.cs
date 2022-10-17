@@ -29,6 +29,7 @@ namespace prueba1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(M1N3));
             this.txtLetra = new System.Windows.Forms.TextBox();
             this.btnAceptar = new System.Windows.Forms.Button();
@@ -61,6 +62,8 @@ namespace prueba1
             this.cp = new System.Windows.Forms.PictureBox();
             this.ap = new System.Windows.Forms.PictureBox();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.port_display = new System.IO.Ports.SerialPort(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.vida3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vida2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.vida1)).BeginInit();
@@ -266,7 +269,6 @@ namespace prueba1
             this._1_.Size = new System.Drawing.Size(451, 353);
             this._1_.TabIndex = 31;
             this._1_.TabStop = false;
-//            this._1_.Click += new System.EventHandler(this._1__Click);
             // 
             // _2_
             // 
@@ -514,6 +516,10 @@ namespace prueba1
             this.btnAtras.MouseLeave += new System.EventHandler(this.btnAtras_MouseLeave);
             this.btnAtras.MouseHover += new System.EventHandler(this.btnAtras_MouseHover);
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // M1N3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -624,5 +630,7 @@ namespace prueba1
         private System.Windows.Forms.PictureBox cp;
         private System.Windows.Forms.PictureBox ap;
         private System.Windows.Forms.Button btnAtras;
+        private System.IO.Ports.SerialPort port_display;
+        private System.Windows.Forms.Timer timer1;
     }
 }

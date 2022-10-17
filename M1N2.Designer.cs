@@ -29,6 +29,7 @@ namespace prueba1
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(M1N2));
             this.x = new System.Windows.Forms.PictureBox();
             this.z = new System.Windows.Forms.PictureBox();
@@ -57,6 +58,8 @@ namespace prueba1
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnABC = new System.Windows.Forms.Button();
             this.btnAtras = new System.Windows.Forms.Button();
+            this.port_display = new System.IO.Ports.SerialPort(this.components);
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.x)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.z)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.y)).BeginInit();
@@ -452,6 +455,10 @@ namespace prueba1
             this.btnAtras.MouseLeave += new System.EventHandler(this.btnAtras_MouseLeave);
             this.btnAtras.MouseHover += new System.EventHandler(this.btnAtras_MouseHover);
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // M1N2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -550,5 +557,7 @@ namespace prueba1
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnABC;
         private System.Windows.Forms.Button btnAtras;
+        private System.IO.Ports.SerialPort port_display;
+        private System.Windows.Forms.Timer timer1;
     }
 }

@@ -51,7 +51,6 @@ namespace prueba1
         int vidas = 3;
         int hechos = 0;
         Form f3 = new ABCyEsp();
-        bool start = false;
 
         private void M1N1_Load(object sender, EventArgs e)
         {
@@ -163,12 +162,11 @@ namespace prueba1
                         port_display.BaudRate = 9600;
                         port_display.Open();
                     }
+                
+                    mensaje = char.Parse(txtBox[letraElegida - 1]);
+                    port_display.Write(Convert.ToString(charToDecimal[mensaje]));
 
-                }
-                catch { }
-
-                mensaje = char.Parse(txtBox[letraElegida - 1]);
-                port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+                } catch { }
 
             }
 
@@ -185,8 +183,12 @@ namespace prueba1
                 {
                     barra5.Visible = true;
                     MessageBox.Show("Ganaste!");
-                    port_display.Write("0");
-                    port_display.Close();
+                    try
+                    {
+                        port_display.Write("0");
+                        port_display.Close();
+
+                    } catch { }
                     this.Visible = false;
 
                 }
@@ -207,8 +209,12 @@ namespace prueba1
                     ptbL.Visible = false;
 
                     letras[letraElegida - 1].Visible = true;
-                    mensaje = char.Parse(txtBox[letraElegida - 1]);
-                    port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+
+                    try
+                    {
+                        mensaje = char.Parse(txtBox[letraElegida - 1]);
+                        port_display.Write(Convert.ToString(charToDecimal[mensaje]));
+                    }  catch { }
 
                 }
             }
@@ -220,8 +226,12 @@ namespace prueba1
                 {
                     vida1.Visible = false;
                     MessageBox.Show("Perdiste!");
-                    port_display.Write("0");
-                    port_display.Close();
+                    try
+                    {
+                        port_display.Write("0");
+                        port_display.Close();
+
+                    } catch { }
                     this.Visible = false;
 
                 }
@@ -279,8 +289,12 @@ namespace prueba1
         private void btnAtras_Click(object sender, EventArgs e)
         {
             this.Visible = false;
-            port_display.Write("0");
-            port_display.Close();
+            try
+            {
+                port_display.Write("0");
+                port_display.Close();
+
+            } catch { }
         }
 
         private void btnAtras_MouseHover(object sender, EventArgs e)

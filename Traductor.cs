@@ -30,11 +30,9 @@ namespace prueba1
         Font Font_B, Font_L;
 
         Form f3 = new ABCyEsp();
-        string mensaje;
+        string mensaje, serial;
         bool sending;
-        int count = 0;
-        int done = 0;
-        string serial;
+        int count, done = 0;
 
         public Traductor()
         {
@@ -227,14 +225,6 @@ namespace prueba1
             }
         }
 
-        private void port_display_DataReceived(object sender, SerialDataReceivedEventArgs e)
-        {
-            MessageBox.Show(port_display.ReadLine());
-            serial = port_display.ReadLine();
-            if (txt1.Focus())
-                txt1.Text += serial;
-        }
-
         private void btnABC_Click(object sender, EventArgs e)
         {
             this.Visible = false;
@@ -271,7 +261,6 @@ namespace prueba1
                 }
                 catch 
                 {
-                    MessageBox.Show("El display no se encuentra conectado");
                     sending = false;
                     count = 0;
                     done = 0;
@@ -293,10 +282,7 @@ namespace prueba1
                     }
 
                 }
-                catch
-                {
-                    //MessageBox.Show("agghd");
-                }
+                catch  { }
             }
             
             if (this.Visible)
@@ -312,10 +298,7 @@ namespace prueba1
                     }
 
                 }
-                catch
-                {
-                    //MessageBox.Show("agghb");
-                }
+                catch { }
             }
         }
 

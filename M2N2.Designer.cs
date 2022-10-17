@@ -95,6 +95,7 @@ namespace prueba1
             this.btnABC.Size = new System.Drawing.Size(167, 75);
             this.btnABC.TabIndex = 64;
             this.btnABC.UseVisualStyleBackColor = false;
+            this.btnABC.Click += new System.EventHandler(this.btnABC_Click);
             this.btnABC.MouseLeave += new System.EventHandler(this.btnABC_MouseLeave);
             this.btnABC.MouseHover += new System.EventHandler(this.btnABC_MouseHover);
             // 

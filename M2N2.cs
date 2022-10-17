@@ -300,5 +300,13 @@ namespace prueba1
         {
             btnAtras.BackgroundImage = global::prueba1.Properties.Resources.exit;
         }
+
+        private void btnABC_Click(object sender, EventArgs e)
+        {
+            f3.ShowDialog();
+            this.Visible = false;
+            if (f3.Visible == false)
+                this.Visible = true;
+        }
     }
 }

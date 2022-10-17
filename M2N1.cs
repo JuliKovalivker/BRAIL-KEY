@@ -181,8 +181,6 @@ namespace prueba1
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(txtBox[letraElegida - 1]);
-
             if(txtLetra.Text == txtBox[letraElegida - 1])
             {
                 hechos++;
